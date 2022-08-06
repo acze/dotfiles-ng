@@ -1,0 +1,7 @@
+# Deleting files in status view
+bind status D !@?rm -rf %(file)
+
+set vertical-split = no
+
+# Highlight words in diff
+set diff-highlight = true
